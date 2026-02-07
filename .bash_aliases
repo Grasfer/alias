@@ -8,11 +8,17 @@ alias cscli='docker exec -t crowdsec cscli'
 
 alias updt='sudo apt upgrade && sudo apt upgrade -y'
 
-
+#### Pacman
 alias update='sudo pacman -Syu'
 alias search='sudo pacman -Ss'
 alias instal='sudo pacman -S'
 alias yeet=‘sudo pacman -Rns’
+
+#### Paru
+alias update='paru -Syu'
+alias search='paru -Ss'
+alias instal='paru -S'
+alias yeet=‘paru -Rns’
 
 #### runs last command with sudo
 alias fuck='sudo $(fc -ln -1)'
