@@ -7,3 +7,12 @@ alias dcupdt='sudo docker compose pull'
 alias cscli='docker exec -t crowdsec cscli'
 
 alias updt='sudo apt upgrade && sudo apt upgrade -y'
+
+
+alias update='sudo pacman -Syu'
+alias search='sudo pacman -Ss'
+alias instal='sudo pacman -S'
+alias yeet=‘sudo pacman -Rns’
+
+#### runs last command with sudo
+alias fuck='sudo $(fc -ln -1)'
