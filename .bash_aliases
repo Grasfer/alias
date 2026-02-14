@@ -15,10 +15,12 @@ alias instal='sudo pacman -S'
 alias yeet=‘sudo pacman -Rns’
 
 #### Paru
-alias update='paru -Syu'
-alias search='paru -Ss'
-alias instal='paru -S'
-alias yeet=‘paru -Rns’
+alias pupdate='paru -Sua'
+alias psearch='paru -Ss'
+alias pinstal='paru -S' 
+alias pcheck='paru -Qua'
+alias pyeet=‘paru -Rns’
+
 
 #### runs last command with sudo
 alias fuck='sudo $(fc -ln -1)'
